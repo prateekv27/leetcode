@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+//ascending
 int main(){
     int n;
     cin>>n;
@@ -20,3 +20,5 @@ int main(){
         swap(arr[a],arr[i]);
     }
 }
+
+//desending
