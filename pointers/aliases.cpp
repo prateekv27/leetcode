@@ -8,5 +8,5 @@ void changeA(int &b){
 int main(){
     int a = 10;
     changeA(a);
-    cout<<a<<endl;
+    
 }
