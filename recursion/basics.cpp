@@ -2,18 +2,24 @@
 using namespace std;
 
 
-long long factorial(int n){
-    if(n<=1){
-        return 1;
-    }
-    return n*factorial(n-1);
-}
+// long long factorial(int n){
+//     if(n<=1){
+//         return 1;
+//     }
+//     return n*factorial(n-1);
+// }
+// int main(){
+//     int a;
+//     cin>>a;
+//     long long ans = factorial(a);
+//     cout<<ans;
+
+
+
+// }
+
+        //sum
 int main(){
-    int a;
-    cin>>a;
-    long long ans = factorial(a);
-    cout<<ans;
-
-
-
+    int arr[5];
+    for (int i = 0;i<n)
 }
