@@ -1,33 +1,49 @@
-class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        int n = nums.size();
-        vector<pair<int,int>> arr;
+// class Solution {
+// public:
+//     vector<int> twoSum(vector<int>& nums, int target) {
+//         int n = nums.size();
+//         vector<pair<int,int>> arr;
 
-        for(int i = 0; i < n; i++) {
-            arr.push_back({nums[i], i});
-        }
+//         for(int i = 0; i < n; i++) {
+//             arr.push_back({nums[i], i});
+//         }
 
-        sort(arr.begin(), arr.end());
+//         sort(arr.begin(), arr.end());
 
-        int left = 0;
-        int right = arr.size() - 1;
+//         int left = 0;
+//         int right = arr.size() - 1;
 
-        while(left < right) {
+//         while(left < right) {
 
-            int sum = arr[left].first + arr[right].first;
+//             int sum = arr[left].first + arr[right].first;
 
-            if(sum == target) {
-                return {arr[left].second, arr[right].second};
-            }
-            else if(sum < target) {
-                left++;
-            }
-            else {
-                right--;
-            }
-        }
+//             if(sum == target) {
+//                 return {arr[left].second, arr[right].second};
+//             }
+//             else if(sum < target) {
+//                 left++;
+//             }
+//             else {
+//                 right--;
+//             }
+//         }
 
-        return {};
-    }
-};
+//         return {};
+//     }
+// };
+
+    
+    // int n;
+    // cin>>n;
+    // vector<int> arr(n);
+    //  for(int i = 0;i<n;i++){
+    //     cin>>arr[i];
+    // }
+    // for(int i = 0;i<n;i++){
+    //     cout<<arr[i]<<endl;
+    // }
+    // int arr[5];
+    // for(int i = 0;i<5;i++){
+    //     cin>>arr[i];
+    // }
+}
