@@ -36,6 +36,13 @@ void insertathead(Node* &head, int d){
     head = temp;
 
 }
+
+void insertatend(Node* &tail, int d){
+    Node* temp = new Node(d);
+    tail->next = temp;
+    tail = temp;
+}
+
 void print(Node* &head){
     Node* temp = head;
     while(temp!= NULL){
@@ -51,7 +58,8 @@ int main(){
     cout<< n1 -> next<<endl;
 
     Node* head = n1;
-    insertathead(head , 50);
+    Node* tail = n1;
+    insertatend(tail , 50);
     print(head);
 
 
